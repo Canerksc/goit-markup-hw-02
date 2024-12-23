@@ -1,105 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Studio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css" />
-  </head>
-  <body>
-    <!--Sitemin Header Alanı-->
-    <header>
-      <a href="index.html">Web Studio</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Studio</a></li>
-          <li><a href="index.html">Portfolloc</a></li>
-          <li><a href="index.html">Contacts</a></li>
-        </ul>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Studio</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!--Raleway/Roboto Font-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <!--Sitemin Header Alanı-->
+  <header>
+    <div class="top-line">
+      <section class="logo">
+        <a href="#" style="text-decoration:none;"> <span class="web">web</span><span class="studio">studio</span></a>
+      </section>
+      <section class="menu-nav">
+        <nav>
+          <ul>
+            <li><a href="#" style="text-decoration:none;">Studio</a></li>
+            <li><a href="#" style="text-decoration:none;">Portfolio</a></li>
+            <li><a href="#" style="text-decoration:none;">Contacts</a></li>
+          </ul>
+        </nav>
+      </section>
       <!--İletişim bilgileri-->
-      <address>
-        <p>info@devstudio.com</p>
-        <p>+11 (000) 111-11-11</p>
-      </address>
-    </header>
-    <!--Sitemin Header Alanı Bitti-->
-    <!--Sitemin Main Alanı-->
-    <main>
+      <div>
+        <address class="address">
+          <p>info@devstudio.com</p>
+          <p>+11 (000) 111-11-11</p>
+        </address>
+      </div>
+    </div>
+  </header>
+  <!--Sitemin Header Alanı Bitti-->
+  <!--Sitemin Main Alanı-->
+  <main>
+    <div class="hero-image">
       <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1>Effective Solutions <br> for Your Business</h1>
       </section>
-      <section>
-        <h3>Strategy</h3>
-        <p>
-          Our goal is to identify the business problem to walk away with the
-          perfect and creative solution.
-        </p>
-        <h3>Punctuality</h3>
-        <p>
-          Bring the key message to the brand's audience for the best price
-          within the shortest possible time.
-        </p>
-        <h3>Diligence</h3>
-        <p>
-          Research and confirm brands that present the strongest digital growth
-          opportunities and minimize risk.
-        </p>
-        <h3>Technologies</h3>
-        <p>
-          Design practice focused on digital experiences. We bring forth a deep
-          passion for problem-solving.
-        </p>
+      <section class="button">
+        <a href="#">
+          <button type="button">Order Service</button>
+        </a>
       </section>
-      <!--Ekip üyeleri bilgisi-->
-      <section>
+    </div>
+    <div class="section-1">
+      <section class="columns">
+        <div class="column">
+          <h3>Strategy</h3>
+          <p>
+            Our goal is to identify the business <br> problem to walk away with the <br>
+            perfect and creative solution.
+          </p>
+        </div>
+        <div class="column">
+          <h3>Punctuality</h3>
+          <p>
+            Bring the key message to the<br> brand's audience for the best price <br>
+            within the shortest possible time.
+          </p>
+        </div>
+        <div class="column">
+          <h3>Diligence</h3>
+          <p>
+            Research and confirm brands that <br> present the strongest digital growth <br>
+            opportunities and minimize risk.
+          </p>
+        </div>
+        <div class="column">
+          <h3>Technologies</h3>
+          <p>
+            Design practice focused on digital <br> experiences. We bring forth a deep <br>
+            passion for problem-solving.
+          </p>
+        </div>
+      </section>
+    </div>
+    <!--Ekip üyeleri bilgisi-->
+    <section class="team-section">
+      <div class="our-team">
         <h2>Our Team</h2>
+      </div>
+      <div class="team-cards">
         <ul>
           <li>
-            <img
-              src="images/img(2).jpg"
-              alt="Mark Guerrero images"
-              width="250"
-            />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+          <div class="team-card">
+            <div class="team-image">
+              <img src="images/img(2).jpg" alt="Mark Guerrero images" />
+            </div>
+            <div class="team-detail">
+              <h3>Mark Guerrero</h3>
+              <p>Product Designer</p>
+            </div>
+          </div>    
           </li>
           <li>
-            <img src="images/img(3).jpg" alt="Tom Ford images" width="250" />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+            <div class="team-card">
+              <div class="team-image">
+                <img src="images/img(3).jpg" alt="Tom Ford images" />
+              </div>
+              <div class="team-detail">
+                <h3>Tom Ford</h3>
+                <p>Frontend Developer</p>
+              </div>
+            </div>
+          </li>    
+          <li>
+            <div class="team-card">
+              <div class="team-image">
+                <img src="images/img(4).jpg" alt="Camila Garcia images" />
+              </div>
+              <div class="team-detail">
+                <h3>Camila Garcia</h3>
+                <p>Marketing</p>
+              </div>
+            </div>
           </li>
           <li>
-            <img
-              src="images/img(4).jpg"
-              alt="Camila Garcia images"
-              width="250"
-            />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="images/img(5).jpg"
-              alt="Daniel Wilson images"
-              width="250"
-            />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+            <div class="team-card">
+            <div class="team-image">
+                <img src="images/img(5).jpg" alt="Daniel Wilson images"/>
+            </div>
+            <div class="team-detail">
+                <h3>Daniel Wilson</h3>
+                <p>UI Designer</p>
+            </div>
+            </div>
           </li>
         </ul>
-      </section>
-    </main>
-    <!--Sitemin Main Alanı Bitti-->
-    <!--Sitemin Footer Alanı-->
-    <footer>
-      <a href="index.html">Web Studio</a>
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
-    <!--Sitemin Footer Alanı Bitti-->
-  </body>
+      </div>
+    </section>
+    <!-- Our Portfolio Section -->
+     <section class="our-portfolio-section">
+      <div class="our-portfolio">
+        <h2>
+          Our Portfolio
+        </h2>
+      </div>
+      <div class="row1">
+          <ul>
+            <li>
+              <div class="project-card">
+                  <div class="pc-img">
+                    <img src="images/css6.jpg" alt="Banking App images">
+                  </div>
+                  <div class="pc-content1">
+                    <h3>Banking App</h3>
+                    <p>App</p>
+                  </div>  
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <div class="pc-img">
+                  <img src="images/css1.jpg" alt="Cashless Payment İmages">
+                </div>
+                <div class="pc-content1">
+                  <h3>Cashless Payment</h3>
+                  <p>Marketing</p>
+                </div>
+              </div>
+              </li>
+              <li>
+                <div class="project-card">
+                  <div class="pc-img">
+                    <img src="images/css2.jpg" alt="Meditation App İmages">
+                  </div>
+                  <div class="pc-content1">
+                    <h3>Meditation App</h3>
+                    <p>App</p>
+                  </div>  
+              </div>
+            </li>   
+          </ul>
+         </div> 
+         <div class="row2">
+          <ul>
+            <li>
+              <div class="project-card">
+                  <div class="pc-img">
+                    <img src="images/css3.jpg" alt="Banking App images">
+                  </div>
+                  <div class="pc-content2">
+                    <h3>Taxi Service</h3>
+                    <p>Marketing</p>
+                  </div>  
+              </div>
+            </li>
+            <li>
+              <div class="project-card">
+                <div class="pc-img">
+                  <img src="images/css4.jpg" alt="Cashless Payment İmages">
+                </div>
+                <div class="pc-content2">
+                  <h3>Screen Illustrations</h3>
+                  <p>Design</p>
+                </div>
+              </div>
+              </li>
+              <li>
+                <div class="project-card">
+                  <div class="pc-img">
+                    <img src="images/css5.jpg" alt="Meditation App İmages">
+                  </div>
+                  <div class="pc-content2">
+                    <h3>Online Courses</h3>
+                    <p>Marketing</p>
+                  </div>  
+              </div>
+            </li>   
+          </ul>
+         </div>    
+     </section>
+  </main>
+  <!--Sitemin Main Alanı Bitti-->
+  <!--Sitemin Footer Alanı-->
+  <footer>
+    <Section class="footer-section">
+  <div class="footer-text">
+      <div class="f-logo">
+    <a href="#" style="text-decoration: none;"><span class="f-web" >Web</span><span class="f-studio">Studio</span></a>
+     </div>
+     <div class="f-text">
+    <p>
+      Increase the flow of customers and sales for your business with digital
+      marketing & growth solutions.
+    </p>
+    </div> 
+  </div>
+  </Section>
+  </footer>
+  <!--Sitemin Footer Alanı Bitti-->
+</body>
 </html>
