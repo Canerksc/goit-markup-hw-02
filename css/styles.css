@@ -36,9 +36,12 @@ body{
     letter-spacing: 0.02em;
     color: #2E2F42;
 }  
-.nav-menu:focus, ::selection{
+header nav .nav-menu:hover,
+header nav .nav-menu:active,
+header nav .nav-menu:focus {
     color: #404bbf;
-}  
+} 
+
 
 
 .address-menu {
@@ -50,7 +53,10 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;   
 }
-.address-mail:focus, ::selection{
+
+header .address-menu .address-mail:hover,
+header .address-menu .address-mail:focus,
+header .address-menu .address-mail:active{
     color: #404bbf;
 }
 .address-number {
@@ -59,7 +65,9 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;   
 }
-.address-number:focus, ::selection{
+header .address-menu .address-number:focus,
+header .address-menu .address-number:hover,
+header .address-menu .address-number:active{
     color: #404bbf;
 }
 /* Header - End */
