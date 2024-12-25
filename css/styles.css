@@ -1,14 +1,19 @@
 
 
 
+body{
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
 
+}
 /*Header */
 .top-line {
     background-color: #fff;
 }
 .logo {
     font-size: 18px;
-    font-family: raleway ;
+    font-family: Raleway;
     font-weight:700;
     letter-spacing: 0.03em;
     line-height: 1.17;
@@ -31,7 +36,7 @@
     letter-spacing: 0.02em;
     color: #2E2F42;
 }  
-.studio-menu:hover, ::selection{
+.studio-menu:focus, ::selection{
     color: #404bbf;
 }  
 .portfolio-menu{
@@ -41,7 +46,7 @@
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.portfolio-menu:hover, ::selection{
+.portfolio-menu:focus, ::selection{
     color: #404bbf;
 }
 .contacts-menu {
@@ -51,7 +56,7 @@
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.contacts-menu:hover, ::selection{
+.contacts-menu:focus, ::selection{
     color: #404bbf;
 }
 .address-menu {
@@ -63,7 +68,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;   
 }
-.address-mail:hover, ::selection{
+.address-mail:focus, ::selection{
     color: #404bbf;
 }
 .address-number {
@@ -72,7 +77,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;   
 }
-.address-number:hover, ::selection{
+.address-number:focus, ::selection{
     color: #404bbf;
 }
 /* Header - End */
@@ -112,14 +117,14 @@
 
 
 /* Section 1 - Start */
-.section1-title{
+.section-1-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
    }
-.section1-text{
+.section-1-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -130,7 +135,7 @@
 
 
 /* Section 2 - Start */
-.section2  {
+.section-3 {
     background-color: #F4F4FD;   
 }
 .our-team-title {   
@@ -141,17 +146,17 @@
     text-transform: capitalize;
     color: #2E2F42;   
 }
-.mark-guerrero {
+.name {
     background-color: #fff;
 }
-.mark-guerrero-title {
+.name-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.mark-guerrero-text {
+.name-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
