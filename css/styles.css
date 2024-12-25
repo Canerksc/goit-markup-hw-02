@@ -54,9 +54,9 @@ header nav .nav-menu:focus {
     letter-spacing: 0.02em;   
 }
 
-header .address-menu .address-mail:hover,
-header .address-menu .address-mail:focus,
-header .address-menu .address-mail:active{
+header .address-menu .address-mail-number:hover,
+header .address-menu .address-mail-number:focus,
+header .address-menu .address-mail-number:active{
     color: #404bbf;
 }
 .address-number {
@@ -65,11 +65,7 @@ header .address-menu .address-mail:active{
     line-height: 1.5;
     letter-spacing: 0.02em;   
 }
-header .address-menu .address-number:focus,
-header .address-menu .address-number:hover,
-header .address-menu .address-number:active{
-    color: #404bbf;
-}
+
 /* Header - End */
 
 
