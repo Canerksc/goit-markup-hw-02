@@ -47,7 +47,7 @@ header nav .nav-menu:focus {
 .address-menu {
     font-style: normal;   
 }
-.address-mail {
+.address-mail-number {
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
@@ -59,7 +59,7 @@ header .address-menu .address-mail-number:focus,
 header .address-menu .address-mail-number:active{
     color: #404bbf;
 }
-.address-number {
+.address-mail-number {
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
