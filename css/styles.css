@@ -1,13 +1,4 @@
-*{
-    padding: 0;
-    margin:  0;
-}
-body { 
-    font-family: "Roboto", sans-serif;     
-    margin: 0 auto;
-    color: #434455;
-    background-color: #ffffff;    
-}
+
 
 
 
@@ -17,7 +8,7 @@ body {
 }
 .logo {
     font-size: 18px;
-    font-family:Raleway ;
+    font-family: raleway ;
     font-weight:700;
     letter-spacing: 0.03em;
     line-height: 1.17;
@@ -34,7 +25,6 @@ body {
     text-transform:uppercase ;
 }
 .studio-menu {
-    display:inline-block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -107,7 +97,7 @@ body {
     font-size: 16px;
     color: #ffffff;
     background-color: #4D5AE5;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
 }   
@@ -115,7 +105,7 @@ body {
    background-color: #404bbf;
 }
 .hero-image-button:focus {
-    color: #404bbf;
+    background-color: #404bbf;
 }
 /* Hero İmage - End */
 
