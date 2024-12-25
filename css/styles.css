@@ -13,7 +13,7 @@ body{
 }
 .logo {
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-weight:700;
     letter-spacing: 0.03em;
     line-height: 1.17;
@@ -117,14 +117,14 @@ body{
 
 
 /* Section 1 - Start */
-.section-1-title{
+.section-l-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
    }
-.section-1-text{
+.section-l-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -135,7 +135,7 @@ body{
 
 
 /* Section 2 - Start */
-.section-3 {
+.section-lll {
     background-color: #F4F4FD;   
 }
 .our-team-title {   
