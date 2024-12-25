@@ -22,43 +22,25 @@ body{
 }
 .logo-studio { 
     font-size: 18px;
-    font-family: Raleway;
+    font-family:"Raleway";
     font-weight: 700;
     color: #2E2F42;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform:uppercase ;
 }
-.studio-menu {
+.nav-menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }  
-.studio-menu:focus, ::selection{
+.nav-menu:focus, ::selection{
     color: #404bbf;
 }  
-.portfolio-menu{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.portfolio-menu:focus, ::selection{
-    color: #404bbf;
-}
-.contacts-menu {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
-.contacts-menu:focus, ::selection{
-    color: #404bbf;
-}
+
+
 .address-menu {
     font-style: normal;   
 }
